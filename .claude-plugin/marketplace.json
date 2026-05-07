@@ -1,0 +1,16 @@
+{
+  "name": "thunderbit",
+  "owner": {
+    "name": "Thunderbit",
+    "url": "https://thunderbit.com"
+  },
+  "plugins": [
+    {
+      "name": "thunderbit",
+      "source": "./packages/claude-plugin",
+      "description": "AI-powered web scraping and structured data extraction. Bundled MCP server (7 tools) + 4 skills for distill, extract, suggest fields, and batch processing.",
+      "version": "1.0.0",
+      "category": "web-scraping"
+    }
+  ]
+}

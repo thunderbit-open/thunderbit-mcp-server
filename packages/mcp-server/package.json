@@ -1,0 +1,43 @@
+{
+  "name": "@thunderbit/mcp-server",
+  "version": "1.0.0",
+  "description": "Thunderbit MCP Server — AI-powered web scraping and structured data extraction for Claude, ChatGPT, and other MCP-compatible AI assistants.",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "web-scraping",
+    "data-extraction",
+    "markdown",
+    "structured-data",
+    "claude",
+    "thunderbit"
+  ],
+  "homepage": "https://thunderbit.com/open-api",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thunderbit-engineering/thunderbit-mcp-server.git",
+    "directory": "packages/mcp-server"
+  },
+  "bugs": {
+    "url": "https://github.com/thunderbit-engineering/thunderbit-mcp-server/issues"
+  },
+  "license": "MIT",
+  "author": "Thunderbit",
+  "type": "module",
+  "bin": {
+    "thunderbit-mcp": "bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "zod": "^3.23.8"
+  }
+}

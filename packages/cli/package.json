@@ -1,0 +1,36 @@
+{
+  "name": "@thunderbit/cli",
+  "version": "1.0.0",
+  "description": "CLI for Thunderbit Open API — distill, extract, and suggest fields from web pages",
+  "main": "src/client.js",
+  "bin": {
+    "thunderbit": "./bin/cli.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "bin/",
+    "src/"
+  ],
+  "dependencies": {
+    "commander": "^11.1.0"
+  },
+  "keywords": [
+    "thunderbit",
+    "web-scraping",
+    "extract",
+    "distill",
+    "markdown",
+    "ai",
+    "llm",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thunderbit-engineering/thunderbit-mcp-server.git",
+    "directory": "packages/cli"
+  },
+  "homepage": "https://thunderbit.com/open-api",
+  "license": "MIT"
+}

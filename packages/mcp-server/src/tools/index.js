@@ -22,7 +22,7 @@ function wrap(fn) {
         const hint = e.status === 402
           ? " — Top up at https://thunderbit.com/billing"
           : e.status === 401
-          ? " — Check your API key at https://thunderbit.com/open-api"
+          ? " — Check your API key at https://app.thunderbit.com/console"
           : e.status === 429
           ? " — Rate limit exceeded, retry later"
           : "";

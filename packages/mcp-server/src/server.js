@@ -18,7 +18,7 @@ export async function start() {
         "Use 'thunderbit_extract' to extract structured data using a JSON Schema (20 credits). " +
         "Batch versions are available for processing up to 100 URLs at once. " +
         "All tools require a Thunderbit API key — set via THUNDERBIT_API_KEY env var or pass as 'apiKey' parameter. " +
-        "Get your API key at https://thunderbit.com/open-api.",
+        "Get your API key at https://app.thunderbit.com/console.",
     }
   );
 

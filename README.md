@@ -3,14 +3,14 @@
 > Open-source toolkit for the Thunderbit Open API — CLI, MCP server, and Claude Code plugin.
 
 [![npm: @thunderbit/mcp-server](https://img.shields.io/npm/v/@thunderbit/mcp-server.svg?label=%40thunderbit%2Fmcp-server)](https://npmjs.com/package/@thunderbit/mcp-server)
-[![npm: @thunderbit/cli](https://img.shields.io/npm/v/@thunderbit/cli.svg?label=%40thunderbit%2Fcli)](https://npmjs.com/package/@thunderbit/cli)
+[![npm: @thunderbit/thunderbit-cli](https://img.shields.io/npm/v/@thunderbit/thunderbit-cli.svg?label=%40thunderbit%2Fcli)](https://npmjs.com/package/@thunderbit/thunderbit-cli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 This monorepo ships three packages, all backed by the [Thunderbit Open API](https://thunderbit.com/open-api):
 
 | Package | Purpose | Audience |
 |---------|---------|----------|
-| [`@thunderbit/cli`](packages/cli) | Command-line tool for distill / extract / batch | Developers, scripts, CI |
+| [`@thunderbit/thunderbit-cli`](packages/cli) | Command-line tool for distill / extract / batch | Developers, scripts, CI |
 | [`@thunderbit/mcp-server`](packages/mcp-server) | Model Context Protocol server (7 tools) | AI assistants — Claude Desktop, Cursor, Cline, Claude Code |
 | [`thunderbit` Claude Code plugin](packages/claude-plugin) | Bundled MCP + 4 skills | Claude Code users |
 
@@ -23,7 +23,7 @@ Get a free API key at [thunderbit.com/open-api](https://thunderbit.com/open-api)
 ### CLI
 
 ```bash
-npm i -g @thunderbit/cli
+npm i -g @thunderbit/thunderbit-cli
 export THUNDERBIT_API_KEY=tb_your_api_key_here
 thunderbit distill https://example.com -f markdown
 ```

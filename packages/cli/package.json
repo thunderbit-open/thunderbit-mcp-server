@@ -1,5 +1,5 @@
 {
-  "name": "@thunderbit/cli",
+  "name": "@thunderbit/thunderbit-cli",
   "version": "1.0.0",
   "description": "CLI for Thunderbit Open API — distill, extract, and suggest fields from web pages",
   "main": "src/client.js",

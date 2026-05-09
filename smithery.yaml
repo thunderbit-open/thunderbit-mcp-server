@@ -1,0 +1,20 @@
+runtime: nodejs
+startCommand:
+  type: stdio
+  command: npx
+  args:
+    - "-y"
+    - "@thunderbit/mcp-server"
+  configSchema:
+    type: object
+    required:
+      - apiKey
+    properties:
+      apiKey:
+        type: string
+        title: "Thunderbit API Key"
+        description: "Your Thunderbit API key (tb_...). Get one at https://app.thunderbit.com/console"
+  envMapping:
+    apiKey: THUNDERBIT_API_KEY
+build:
+  dockerfile: ./Dockerfile

@@ -1,0 +1,23 @@
+{
+  "name": "thunderbit",
+  "displayName": "Thunderbit AI Web Scraper",
+  "description": "Scrape any URL into structured data using natural language. AI handles selectors, JS rendering, pagination, and subpage crawling — no scraping code required. 7 tools: distill, extract, suggest_fields, plus 4 batch variants.",
+  "command": "npx",
+  "args": ["-y", "@thunderbit/mcp-server"],
+  "env": {
+    "THUNDERBIT_API_KEY": "tb_xxx"
+  },
+  "keywords": [
+    "web-scraping",
+    "browser-automation",
+    "data-extraction",
+    "ai-scraper",
+    "mcp-server",
+    "markdown",
+    "structured-data",
+    "rag"
+  ],
+  "homepage": "https://github.com/thunderbit-open/thunderbit-mcp-server",
+  "license": "MIT",
+  "author": "Thunderbit"
+}

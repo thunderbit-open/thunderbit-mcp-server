@@ -1,6 +1,7 @@
 {
   "name": "@thunderbit/mcp-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "mcpName": "io.github.thunderbit-open/thunderbit-mcp-server",
   "description": "Thunderbit MCP Server — AI-powered web scraping and structured data extraction for Claude, ChatGPT, and other MCP-compatible AI assistants.",
   "keywords": [
     "mcp",

@@ -1,0 +1,29 @@
+.git
+.github
+.gitignore
+.dockerignore
+
+node_modules
+**/node_modules
+
+.env
+.env.*
+.npmrc
+*.pem
+*.key
+secrets/
+
+*.log
+*.tgz
+.DS_Store
+.vscode
+.idea
+
+# Local-only files (never publish)
+PUBLISH.sh
+RELEASE-PLAN.md
+PLUGIN-RELEASE-PLAN.md
+TESTING.md
+
+# Docs we don't need at runtime
+CHANGELOG.md

@@ -1,0 +1,19 @@
+{
+  "name": "io.github.thunderbit-open/thunderbit-mcp-server",
+  "description": "MIT-licensed AI web scraper MCP. 7 tools for distilling pages to Markdown and extracting structured data from any URL.",
+  "repository": {
+    "url": "https://github.com/thunderbit-open/thunderbit-mcp-server",
+    "source": "github"
+  },
+  "version_detail": {
+    "version": "1.0.2"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@thunderbit/mcp-server",
+      "version": "1.0.2",
+      "transport": "stdio"
+    }
+  ]
+}

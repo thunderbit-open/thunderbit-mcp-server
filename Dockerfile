@@ -18,15 +18,9 @@ COPY packages/mcp-server/README.md ./README.md
 # ────────────────────────────────────────────
 FROM node:20-alpine AS runtime
 
-# Non-root user (least privilege)
-RUN addgroup -S app && adduser -S app -G app
-
 WORKDIR /app
 
-# Copy built artifacts from builder stage with proper ownership
-COPY --from=builder --chown=app:app /build /app
-
-USER app
+COPY --from=builder /build /app
 
 # MCP server speaks JSON-RPC over stdio — no port to expose.
 # THUNDERBIT_API_KEY is supplied at runtime via `docker run -e THUNDERBIT_API_KEY=...`
